@@ -1,0 +1,66 @@
+mainmenu "openpult IR bridge"
+
+menu "openpult IR bridge"
+
+config OPENPULT_BATT_CELLS
+	int "Battery cells in series"
+	default 3
+	range 1 4
+	help
+	  Alkaline or NiMH cells in the pack; the state of charge is computed from the
+	  per-cell voltage (PROTOCOL.md, Battery).
+
+config OPENPULT_BATT_DIODE_MV
+	int "Drop between the battery and the measured node (mV)"
+	default 250
+	range 0 1000
+	help
+	  Added to the measured voltage, e.g. the Schottky diode in front of B+.
+	  Use 0 when the battery is measured directly.
+
+config OPENPULT_BATT_LI_ION
+	bool "Li-ion battery"
+	help
+	  Use the Li-ion curve (4.20 V full, 3.30 V empty, low below 3.50 V per cell)
+	  instead of the alkaline curve of the protocol. For boards measuring a Li-ion
+	  cell on their BAT input; set OPENPULT_BATT_CELLS=1 and OPENPULT_BATT_DIODE_MV=0.
+
+config OPENPULT_USB_POWERED
+	bool "Powered from USB, no battery"
+	help
+	  No battery measurement; Status reports external power (flags bit4) with
+	  battery_mV = 0 and the Battery Service reports 100 %.
+
+config OPENPULT_LEARN
+	bool "Learning with an IR receiver"
+	default y
+	select NRFX_GPPI if SOC_FAMILY_NORDIC_NRF
+	help
+	  Capture codes from a demodulating receiver wired as ir-rx-gpios in the
+	  devicetree. Without that property the capability is not reported.
+
+config OPENPULT_TX_HIGH_DRIVE
+	bool "High drive strength on the IR output"
+	default y
+	help
+	  Drives the LED straight from the pin (about 8 mA through 220 Ohm at 3.3 V).
+	  Not needed with a transistor driver.
+
+config OPENPULT_DEBUG_LED
+	bool "Light led0 while IR is transmitted"
+	depends on GPIO
+
+module = OPENPULT
+module-str = openpult
+source "subsys/logging/Kconfig.template.log_config"
+
+endmenu
+
+# DIS strings from the build: firmware version from VERSION, hardware = board target.
+config BT_DIS_FW_REV_STR
+	default "$(APPVERSION)"
+
+config BT_DIS_HW_REV_STR
+	default "$(BOARD)/$(BOARD_QUALIFIERS)"
+
+source "Kconfig.zephyr"

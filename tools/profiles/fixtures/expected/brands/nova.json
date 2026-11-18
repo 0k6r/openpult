@@ -1,0 +1,51 @@
+[
+  {
+    "id": "nova-1",
+    "brand": "nova",
+    "name": "nova TV (NV-30A, nv-30b, NV-31 +1)",
+    "models": ["NV-30A","nv-30b","NV-31","nv-31"],
+    "weight": 2,
+    "source": ["TVs/Nova/Nova_NV-30A_nv-31.ir","TVs/Nova/Nova_nv-30b_NV-31.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":64,"c":4},
+      "mute": {"p":"NEC","a":64,"c":5}
+    },
+    "extra": []
+  },
+  {
+    "id": "nova-2",
+    "brand": "nova",
+    "name": "nova TV (NV-10, NV-11, NV-12 +1)",
+    "models": ["NV-10","NV-11","NV-12","NV-13"],
+    "weight": 1,
+    "source": ["TVs/Nova/Nova_NV-10_NV-11_NV-12_NV-13.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":64,"c":3}
+    },
+    "extra": []
+  },
+  {
+    "id": "nova-3",
+    "brand": "nova",
+    "name": "nova TV (NV-2)",
+    "models": ["NV-2"],
+    "weight": 1,
+    "source": ["TVs/Nova/Nova_NV-2.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":64,"c":2}
+    },
+    "extra": []
+  },
+  {
+    "id": "nova-4",
+    "brand": "nova",
+    "name": "nova TV (NV-1)",
+    "models": ["NV-1"],
+    "weight": 1,
+    "source": ["TVs/nova_NV-1.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":64,"c":1}
+    },
+    "extra": []
+  }
+]

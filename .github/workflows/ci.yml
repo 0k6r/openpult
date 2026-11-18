@@ -1,0 +1,128 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_call:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  app:
+    name: iOS app and Swift packages
+    # Xcode 26+: objectVersion 77 projects and String Catalogs built by SwiftPM.
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Swift package tests
+        run: swift test --package-path app/BraviaKit
+      - name: Build the app (simulator, unsigned)
+        run: >
+          xcodebuild -project app/Pult.xcodeproj -scheme Pult -configuration Debug
+          -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build
+
+  shared:
+    name: Vectors, firmware host tests, profile importer, translations
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: No TV code database in the repository
+        run: |
+          # Flipper-IRDB data is downloaded by the app; only hand-written fixtures may be committed.
+          bad=$(git -c core.quotePath=false ls-files | grep -E '^profiles/(index\.json|power_scan\.json|brands/|LICENSE$)' || true)
+          irs=$(git -c core.quotePath=false ls-files '*.ir' | grep -vE '^tools/profiles/(fixtures|contrib)/' || true)
+          if [ -n "$bad$irs" ]; then printf 'Not allowed in git:\n%s\n%s\n' "$bad" "$irs"; exit 1; fi
+      - name: Test vectors are up to date
+        run: |
+          python3 -I -X utf8 tools/gen_ir_vectors.py --check
+          python3 -I -X utf8 tools/profiles/gen_import_vectors.py --check
+      - name: Translations are complete
+        run: |
+          python3 -I tools/l10n/check_catalogs.py
+          python3 -I -m unittest discover -s tools/l10n
+      - name: Firmware host tests
+        run: make -C firmware/tests/host test
+      - name: Profile importer tests
+        run: python3 -I -X utf8 -m unittest discover -s tools/profiles
+
+  firmware:
+    name: Firmware (${{ matrix.board }})
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        board:
+          - promicro_nrf52840/nrf52840/uf2
+          - xiao_ble/nrf52840
+          - adafruit_feather_nrf52840/nrf52840/uf2
+          - nrf52840dongle/nrf52840
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: openpult
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install build tools
+        run: sudo apt-get update && sudo apt-get install --no-install-recommends -y ninja-build gperf ccache device-tree-compiler
+      - name: Cache the Zephyr workspace
+        uses: actions/cache@v4
+        with:
+          path: zephyrproject
+          key: zephyr-v4.5.0-${{ runner.os }}-1
+      - name: Zephyr workspace
+        run: |
+          pip install west
+          if [ ! -d zephyrproject/zephyr ]; then
+            west init -m https://github.com/zephyrproject-rtos/zephyr --mr v4.5.0 --clone-opt=--depth=1 zephyrproject
+            cd zephyrproject
+            west config manifest.project-filter -- '-.*,+cmsis,+cmsis_6,+hal_nordic,+mbedtls,+tf-psa-crypto,+tf-psa-crypto-drivers,+segger,+picolibc'
+            west update --narrow -o=--depth=1
+            west sdk install -b . -t arm-zephyr-eabi
+          fi
+          pip install -r ${GITHUB_WORKSPACE}/zephyrproject/zephyr/scripts/requirements-base.txt
+      - name: Build release and debug
+        working-directory: openpult
+        env:
+          ZEPHYR_BASE: ${{ github.workspace }}/zephyrproject/zephyr
+        run: |
+          west build -p -b "${{ matrix.board }}" -d build/release firmware
+          west build -p -b "${{ matrix.board }}" -d build/debug firmware -- -DEXTRA_CONF_FILE=debug.conf
+      - name: Name the artifacts
+        working-directory: openpult
+        run: |
+          name=$(echo "${{ matrix.board }}" | cut -d/ -f1)
+          mkdir -p dist
+          for kind in release debug; do
+            for ext in uf2 hex; do
+              f=build/$kind/zephyr/zephyr.$ext
+              [ -f "$f" ] && cp "$f" "dist/openpult-$name-$kind.$ext"
+            done
+          done
+          ls -l dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firmware-${{ strategy.job-index }}
+          path: openpult/dist/*
+
+  enclosure:
+    name: Enclosure
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r enclosure/requirements.txt
+      - name: Geometry checks
+        run: |
+          python enclosure/build.py --all
+          python enclosure/check.py
+          python -m pytest enclosure/tests
+      - uses: actions/upload-artifact@v4
+        with:
+          name: enclosure-stl
+          path: enclosure/out/**/*.stl

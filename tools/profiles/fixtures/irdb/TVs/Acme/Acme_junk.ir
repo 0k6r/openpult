@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Bad_hex
+type: parsed
+protocol: NEC
+address: ZZ 00 00 00
+command: 01 00 00 00
+#
+name: Short_hex
+type: parsed
+protocol: NEC
+address: 04 00
+command: 01 00 00 00
+#
+name: Unknown_proto
+type: parsed
+protocol: Foo
+address: 04 00 00 00
+command: 01 00 00 00
+#
+name: Too_wide
+type: parsed
+protocol: NEC
+address: 00 01 00 00
+command: 01 00 00 00
+#
+name: No_command
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+#
+name: Weird
+type: pulse
+#
+name: Bad_raw
+type: raw
+frequency: 38k
+duty_cycle: 0.33
+data: 1 2 3
+#
+name: Negative_raw
+type: raw
+frequency: 38000
+duty_cycle: 0.33
+data: 500 -3 500
+#
+name: _
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: Power
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+random garbage line without a colon
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0D 00 00 00

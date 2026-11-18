@@ -1,0 +1,51 @@
+[
+  {
+    "id": "olmann-1",
+    "brand": "Ölmann",
+    "name": "Ölmann TV (ÖL-55)",
+    "models": [],
+    "weight": 1,
+    "source": ["TVs/Ölmann/Ölmann_ÖL-55 (Küche).ir"],
+    "keys": {
+      "power": {"p":"NECext","a":32272,"c":65025},
+      "volumeUp": {"p":"NECext","a":32272,"c":65026},
+      "volumeDown": {"p":"NECext","a":32272,"c":65027}
+    },
+    "extra": [
+      {"name":"Lautstärke","cmd":{"p":"NECext","a":32272,"c":65028}},
+      {"name":"ΣΟΦΟΣ","cmd":{"p":"NECext","a":32272,"c":65029}},
+      {"name":"İnfo","cmd":{"p":"NECext","a":32272,"c":65030}},
+      {"name":"Menü","cmd":{"p":"NECext","a":32272,"c":65031}}
+    ]
+  },
+  {
+    "id": "olmann-2",
+    "brand": "Ölmann",
+    "name": "Ölmann TV (ÖL-60)",
+    "models": [],
+    "weight": 1,
+    "source": ["TVs/Ölmann/Ölmann_ÖL-60.ir"],
+    "keys": {
+      "power": {"p":"NECext","a":32272,"c":65041},
+      "mute": {"p":"NECext","a":32272,"c":65042}
+    },
+    "extra": []
+  },
+  {
+    "id": "olmann-3",
+    "brand": "Ölmann",
+    "name": "Ölmann TV (Broken)",
+    "models": [],
+    "weight": 1,
+    "source": ["TVs/Ölmann/Ölmann_Broken.ir"],
+    "keys": {
+      "power": {"p":"NECext","a":32272,"c":65057}
+    },
+    "extra": [
+      {"name":"Mode��","cmd":{"p":"NECext","a":32272,"c":65058}},
+      {"name":"Info���x","cmd":{"p":"NECext","a":32272,"c":65059}},
+      {"name":"Pic�","cmd":{"p":"NECext","a":32272,"c":65060}},
+      {"name":"Slash������","cmd":{"p":"NECext","a":32272,"c":65061}}
+    ]
+  }
+]

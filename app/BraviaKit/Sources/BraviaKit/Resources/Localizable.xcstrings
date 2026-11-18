@@ -1,0 +1,741 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "A downloaded file did not match its checksum. Try again later." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загруженный файл не совпал с контрольной суммой. Повторите попытку позже."
+          }
+        }
+      }
+    },
+    "Aiming needs both volume buttons or Mute." : {
+      "comment" : "Error: the TV profile lacks the keys used for aiming the bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для наведения нужны обе кнопки громкости или «Без звука»."
+          }
+        }
+      }
+    },
+    "Bluetooth error: %@" : {
+      "comment" : "Error: %@ is a system or bridge error message.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка Bluetooth: %@"
+          }
+        }
+      }
+    },
+    "Bluetooth is off. Turn it on to use the IR bridge." : {
+      "comment" : "Error: Bluetooth is powered off.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth выключен. Включите его, чтобы управлять через ИК-приставку."
+          }
+        }
+      }
+    },
+    "Bluetooth isn't available on this device." : {
+      "comment" : "Error: no Bluetooth LE.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth недоступен на этом устройстве."
+          }
+        }
+      }
+    },
+    "Could not build the TV profiles from the downloaded files." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось собрать профили телевизоров из загруженных файлов."
+          }
+        }
+      }
+    },
+    "Could not save the TV code database: %@" : {
+      "comment" : "Error: file system failure. %@ is a system error message.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось сохранить базу кодов телевизоров: %@"
+          }
+        }
+      }
+    },
+    "Couldn't get the iPhone's Wi‑Fi address. Connect to Wi‑Fi and search again." : {
+      "comment" : "Error: no IPv4 address on Wi‑Fi, so the TV search cannot run.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось определить адрес iPhone в сети Wi‑Fi. Подключитесь к Wi‑Fi и повторите поиск."
+          }
+        }
+      }
+    },
+    "Enter the digits shown on the TV screen." : {
+      "comment" : "Error: the typed PIN is empty or not numeric.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите цифры, которые показаны на экране телевизора."
+          }
+        }
+      }
+    },
+    "Enter the Pre-Shared Key set in the TV's settings." : {
+      "comment" : "Error: the Pre-Shared Key field is empty.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите Pre-Shared Key, который задан в настройках телевизора."
+          }
+        }
+      }
+    },
+    "Enter the TV's IP address (for example, 192.168.1.50) or a name like bravia.local." : {
+      "comment" : "Error: plain HTTP to this host is blocked by App Transport Security.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Укажите IP-адрес телевизора (например, 192.168.1.50) или имя вида bravia.local."
+          }
+        }
+      }
+    },
+    "Enter the TV's IP address, for example, 192.168.1.50." : {
+      "comment" : "Error: the typed TV address is not valid.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите IP-адрес телевизора, например 192.168.1.50."
+          }
+        }
+      }
+    },
+    "GitHub is not responding. Check the internet connection and try again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub не отвечает. Проверьте подключение к интернету и повторите попытку."
+          }
+        }
+      }
+    },
+    "GitHub returned an error (%lld). Try again later." : {
+      "comment" : "Error: unexpected HTTP status from GitHub.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub вернул ошибку (%lld). Повторите попытку позже."
+          }
+        }
+      }
+    },
+    "GitHub sent an unexpected file list. The download was stopped." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub прислал неожиданный список файлов. Загрузка остановлена."
+          }
+        }
+      }
+    },
+    "GitHub's download limit has been reached. Try again after %@." : {
+      "comment" : "Error: GitHub API rate limit. %@ is a time of day.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Достигнут лимит загрузок GitHub. Повторите после %@."
+          }
+        }
+      }
+    },
+    "GitHub's download limit has been reached. Try again in an hour." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Достигнут лимит загрузок GitHub. Повторите через час."
+          }
+        }
+      }
+    },
+    "Invalid button code." : {
+      "comment" : "Error: malformed IRCC code.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неверный код кнопки."
+          }
+        }
+      }
+    },
+    "Invalid request parameters." : {
+      "comment" : "Error: a JSON-RPC request could not be encoded.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Некорректные параметры запроса."
+          }
+        }
+      }
+    },
+    "Invalid TV address: %@" : {
+      "comment" : "Error: %@ is the host the user typed.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неверный адрес телевизора: %@"
+          }
+        }
+      }
+    },
+    "IR bridge connected" : {
+      "comment" : "Banner after the IR bridge is paired.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ИК-приставка подключена"
+          }
+        }
+      }
+    },
+    "Listening stopped. Tap Listen Again." : {
+      "comment" : "Error: learning was interrupted. Listen Again is a button on the learning screen.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приём прервался. Нажмите «Слушать снова»."
+          }
+        }
+      }
+    },
+    "My TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мой телевизор"
+          }
+        }
+      }
+    },
+    "No access to the local network. Turn on Wi‑Fi and allow OpenPult access in Settings → Privacy & Security → Local Network." : {
+      "comment" : "Error: iOS denied the Local Network permission. OpenPult is the app name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет доступа к локальной сети. Включите Wi‑Fi и разрешите «Пульту» доступ: Настройки → Конфиденциальность и безопасность → Локальная сеть."
+          }
+        }
+      }
+    },
+    "No code for this button. You can learn it: ⋯ → Learn Buttons." : {
+      "comment" : "Error: the TV profile has no code for this key. Learn Buttons is a menu item.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для этой кнопки нет кода. Её можно обучить: «⋯» → «Обучить кнопки»."
+          }
+        }
+      }
+    },
+    "No internet connection. Connect to the internet and try again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет подключения к интернету. Подключитесь к интернету и повторите попытку."
+          }
+        }
+      }
+    },
+    "No signal received. Point the remote at the bridge from 5–10 cm away and press the button again." : {
+      "comment" : "Error: learning timed out.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнал не получен. Направьте пульт на приставку с расстояния 5–10 см и нажмите кнопку ещё раз."
+          }
+        }
+      }
+    },
+    "No text field is open on the TV. Open search or a text field and try again." : {
+      "comment" : "Error: text was sent while no text field is focused on the TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На телевизоре не открыто поле ввода. Откройте поиск или поле ввода и повторите."
+          }
+        }
+      }
+    },
+    "OpenPult doesn't have access to Bluetooth. Allow it in Settings → Apps → OpenPult → Bluetooth." : {
+      "comment" : "Error: Bluetooth permission denied. OpenPult is the app name, as shown in iOS Settings → Apps (iOS 18+).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У «Пульта» нет доступа к Bluetooth. Разрешите его: Настройки → Приложения → Пульт → Bluetooth."
+          }
+        }
+      }
+    },
+    "Pairing failed. Turn the bridge off and on, then connect it again within 2 minutes." : {
+      "comment" : "Error: Bluetooth pairing with the bridge failed.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сопряжение не удалось. Выключите и включите приставку и подключите её снова в течение 2 минут."
+          }
+        }
+      }
+    },
+    "Remote for “%@” is ready" : {
+      "comment" : "Banner after IR setup. %@ is the TV or profile name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт для «%@» готов"
+          }
+        }
+      }
+    },
+    "Some downloaded files are missing. Download the database again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Часть загруженных файлов отсутствует. Загрузите базу заново."
+          }
+        }
+      }
+    },
+    "Text sent" : {
+      "comment" : "Banner after text was typed on the TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст отправлен"
+          }
+        }
+      }
+    },
+    "The bridge can't send this signal." : {
+      "comment" : "Error: the IR signal is out of the bridge's limits.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка не может передать этот сигнал."
+          }
+        }
+      }
+    },
+    "The bridge firmware is outdated and only supports Sony TVs. Update the firmware." : {
+      "comment" : "Error: firmware speaks protocol v1 only.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прошивка приставки устарела: она поддерживает только телевизоры Sony. Обновите прошивку."
+          }
+        }
+      }
+    },
+    "The bridge forgot this iPhone. Forget OpenPult in Settings → Bluetooth, turn the bridge off and on, and connect it again." : {
+      "comment" : "Error: the bridge lost its bond. OpenPult is the bridge's Bluetooth name; do not translate.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка забыла этот iPhone. Забудьте «OpenPult» в Настройках → Bluetooth, выключите и включите приставку и подключите её заново."
+          }
+        }
+      }
+    },
+    "The bridge found no signal to repeat." : {
+      "comment" : "Error: internal, a held key had nothing to extend.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка не нашла сигнал для повтора."
+          }
+        }
+      }
+    },
+    "The bridge has no IR receiver, so learning isn't available. Connect a VS1838B or TSOP38238." : {
+      "comment" : "Error: learning needs an IR receiver module (part numbers).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У приставки нет ИК-приёмника, поэтому обучение недоступно. Подключите VS1838B или TSOP38238."
+          }
+        }
+      }
+    },
+    "The bridge is in firmware update mode. Connect it to a computer over USB." : {
+      "comment" : "Banner after rebooting the bridge into its UF2 bootloader.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка в режиме прошивки: подключите её к компьютеру по USB."
+          }
+        }
+      }
+    },
+    "The bridge is still sending previous commands." : {
+      "comment" : "Error: the bridge's queue is full.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка ещё отправляет предыдущие команды."
+          }
+        }
+      }
+    },
+    "The bridge isn't responding. Make sure it's on and nearby, and that the batteries aren't dead." : {
+      "comment" : "Error: the IR bridge cannot be reached over Bluetooth.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка не отвечает. Проверьте, что она включена, стоит рядом и батарейки не сели."
+          }
+        }
+      }
+    },
+    "The bridge rejected the command. It may need a firmware update." : {
+      "comment" : "Error: the bridge did not accept a command.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка не приняла команду. Возможно, нужна новая версия прошивки."
+          }
+        }
+      }
+    },
+    "The bridge's board can't do this." : {
+      "comment" : "Error: e.g. no UF2 bootloader.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Плата приставки этого не умеет."
+          }
+        }
+      }
+    },
+    "The IR bridge isn't connected yet." : {
+      "comment" : "Error: no bridge has been paired.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ИК-приставка ещё не подключена."
+          }
+        }
+      }
+    },
+    "The key didn't work. Check the Pre-Shared Key and make sure the TV's authentication is set to Normal and Pre-Shared Key." : {
+      "comment" : "Error: wrong PSK. Normal and Pre-Shared Key is a Sony menu option.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ключ не подошёл. Проверьте Pre-Shared Key и убедитесь, что в настройках ТВ выбрана аутентификация «Обычная и Pre-Shared Key»."
+          }
+        }
+      }
+    },
+    "The license of the TV code database has changed and needs a review. The download was stopped." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лицензия базы кодов телевизоров изменилась и требует проверки. Загрузка остановлена."
+          }
+        }
+      }
+    },
+    "The PIN is wrong or has expired. Request a new PIN and enter it within a minute." : {
+      "comment" : "Error: the TV rejected the pairing PIN.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN не подошёл или устарел. Запросите новый PIN и введите его в течение минуты."
+          }
+        }
+      }
+    },
+    "The TV code database is larger than expected. The download was stopped." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "База кодов телевизоров больше ожидаемой. Загрузка остановлена."
+          }
+        }
+      }
+    },
+    "The TV code database was not found on GitHub." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "База кодов телевизоров не найдена на GitHub."
+          }
+        }
+      }
+    },
+    "The TV didn't accept the button command." : {
+      "comment" : "Error: the TV rejected an IRCC key code.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не принял команду кнопки."
+          }
+        }
+      }
+    },
+    "The TV didn't respond. Turn it on with its button and check that Remote Start is on. After a long standby, the TV may not be reachable over the network." : {
+      "comment" : "Error: Wake-on-LAN gave up. Remote Start is a Sony menu item.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не ответил. Включите его кнопкой и проверьте, что на нём включён «Удалённый запуск». После долгого сна iPhone может не достучаться до ТВ по сети."
+          }
+        }
+      }
+    },
+    "The TV doesn't allow PIN pairing. Turn on IP Control and Remote Device/Renderer on the TV, or use a Pre-Shared Key." : {
+      "comment" : "Error: the TV refused to start PIN pairing. IP Control and Remote Device/Renderer are Sony menu items.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не разрешил подключение по PIN. Включите на нём IP-управление и «Удалённое управление» или используйте Pre-Shared Key."
+          }
+        }
+      }
+    },
+    "The TV is offline. Turn it on with its button or the original remote. To turn it on from your phone, enable Remote Start on the TV." : {
+      "comment" : "Error: no MAC address for Wake-on-LAN. Remote Start is a Sony menu item.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не в сети. Включите его кнопкой или обычным пультом. Чтобы включать с телефона, включите на ТВ «Удалённый запуск»."
+          }
+        }
+      }
+    },
+    "The TV isn't responding. Make sure it's on and connected to the same Wi‑Fi network as your iPhone." : {
+      "comment" : "Error: the TV does not answer over the network.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не отвечает. Проверьте, что он включён и подключён к той же сети Wi‑Fi, что и iPhone."
+          }
+        }
+      }
+    },
+    "The TV rejected the command. Connect to it again." : {
+      "comment" : "Error: HTTP 401/403 from the TV; the banner offers a Connect button.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор отклонил команду: нужно подключиться к нему заново."
+          }
+        }
+      }
+    },
+    "The TV screen is off." : {
+      "comment" : "Error: JSON-RPC 40005, display is off.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экран телевизора выключен."
+          }
+        }
+      }
+    },
+    "The TV sent an unexpected response." : {
+      "comment" : "Error: the TV's response could not be parsed.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор прислал непонятный ответ."
+          }
+        }
+      }
+    },
+    "This TV doesn't have this button." : {
+      "comment" : "Error: the key does not exist on this TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У этого телевизора нет такой кнопки."
+          }
+        }
+      }
+    },
+    "Turning on the TV…" : {
+      "comment" : "Banner while Wake-on-LAN is in progress.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включаю телевизор…"
+          }
+        }
+      }
+    },
+    "TV connected" : {
+      "comment" : "Banner after pairing with the TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор подключён"
+          }
+        }
+      }
+    },
+    "TV error (%lld)." : {
+      "comment" : "Error from the TV without a message. %lld is the error code.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка телевизора (%lld)."
+          }
+        }
+      }
+    },
+    "TV error (%lld): %@." : {
+      "comment" : "Error from the TV. %lld is the error code, %@ the TV's message (usually English).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка телевизора (%lld): %@."
+          }
+        }
+      }
+    },
+    "Updated codes for %lld buttons" : {
+      "comment" : "Banner after reloading IRCC codes from the TV. %lld is the number of buttons.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Updated codes for %lld button"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Updated codes for %lld buttons"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Обновлены коды для %lld кнопок"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Обновлены коды для %lld кнопок"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Обновлены коды для %lld кнопки"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Обновлены коды для %lld кнопки"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Your TV doesn't support this feature." : {
+      "comment" : "Error: method not supported by the TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта функция не поддерживается вашим телевизором."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,5 @@
+/* Debug build: USB CDC ACM console (added automatically together with debug.conf). */
+
+&usbd {
+	status = "okay";
+};

@@ -1,0 +1,37 @@
+/*
+ * Adafruit Feather nRF52840 Express, UF2 bootloader (S140 6.1.1 layout).
+ * The battery (single Li-ion cell on the JST connector) is measured on the 100k/100k
+ * divider on P0.29. Not a low-power board: the NeoPixel and the always-on divider draw
+ * current the firmware cannot switch off.
+ */
+
+#include "../dts/openpult_common.dtsi"
+
+/ {
+	openpult {
+		compatible = "openpult,ir-bridge";
+		ir-pwm = <&pwm1>;
+		/* D5 -> resistor -> IR LED (or the driver transistor) */
+		ir-tx-gpios = <&gpio1 8 GPIO_ACTIVE_HIGH>;
+		/* receiver on D6, D9, D10 (adjacent on the header): OUT, GND, VCC */
+		ir-rx-gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;
+		ir-rx-gnd-gpios = <&gpio0 26 GPIO_ACTIVE_LOW>;
+		ir-rx-power-gpios = <&gpio0 27 GPIO_ACTIVE_HIGH>;
+		ir-rx-timer = <&timer2>;
+		battery = <&{/vbatt}>;
+		uf2-bootloader;
+		suspend-devices = <&gd25q16>;
+	};
+};
+
+&adc {
+	channel@5 {
+		reg = <5>;
+		zephyr,gain = "ADC_GAIN_1_6";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 40)>;
+		zephyr,input-positive = <NRF_SAADC_AIN5>;
+		zephyr,resolution = <12>;
+		zephyr,oversampling = <3>;
+	};
+};

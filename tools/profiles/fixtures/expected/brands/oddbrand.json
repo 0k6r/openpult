@@ -1,0 +1,15 @@
+[
+  {
+    "id": "oddbrand-1",
+    "brand": "Oddbrand",
+    "name": "Oddbrand TV (OB-77)",
+    "models": ["OB-77"],
+    "weight": 1,
+    "source": ["TVs/Oddbrand OB-77"],
+    "keys": {
+      "power": {"p":"NEC","a":4,"c":8},
+      "mute": {"p":"RC5","a":0,"c":13}
+    },
+    "extra": []
+  }
+]

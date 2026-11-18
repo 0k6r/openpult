@@ -1,0 +1,67 @@
+description: |
+  Board wiring of an openpult BLE-to-IR bridge: the pins and peripherals the firmware
+  uses. Exactly one enabled node with this compatible must exist; a board port is an
+  overlay that defines it (see docs/firmware/porting-a-board.md).
+
+compatible: "openpult,ir-bridge"
+
+include: base.yaml
+
+properties:
+  ir-pwm:
+    type: phandle
+    required: true
+    description: |
+      nRF PWM instance generating the modulated carrier. The firmware drives it through
+      nrfx directly, so the node must stay disabled (no Zephyr PWM driver on it).
+
+  ir-tx-gpios:
+    type: phandle-array
+    required: true
+    description: |
+      IR LED or LED driver input; active level = LED on. High drive strength is
+      selected by CONFIG_OPENPULT_TX_HIGH_DRIVE.
+
+  ir-rx-gpios:
+    type: phandle-array
+    description: |
+      Output of a demodulating IR receiver (VS1838B, TSOP38238, KY-022) for learning.
+      Enables the LEARN capability.
+
+  ir-rx-power-gpios:
+    type: phandle-array
+    description: |
+      Supplies the receiver; driven active only while learning (the module draws
+      about 0.4 mA).
+
+  ir-rx-gnd-gpios:
+    type: phandle-array
+    description: |
+      Optional GPIO used as the receiver's ground, so the module can sit on three
+      adjacent pins. Driven to its active level permanently: use GPIO_ACTIVE_LOW.
+
+  ir-rx-timer:
+    type: phandle
+    description: |
+      TIMER instance timestamping receiver edges (1 MHz, through GPIOTE and PPI).
+      Required with ir-rx-gpios. Keep the node disabled. TIMER0 and TIMER1 belong to
+      the Bluetooth controller.
+
+  battery:
+    type: phandle
+    description: |
+      "voltage-divider" node of the battery measurement: ADC channel plus divider
+      ratio (for the internal VDDH/5 input use output-ohms = 1, full-ohms = 5).
+      Required unless the build sets CONFIG_OPENPULT_USB_POWERED.
+
+  uf2-bootloader:
+    type: boolean
+    description: |
+      The board runs an Adafruit-style UF2 bootloader that enters its USB drive mode
+      when NRF_POWER->GPREGRET is 0x57 after a reset (ENTER_BOOTLOADER).
+
+  suspend-devices:
+    type: phandles
+    description: |
+      Devices suspended at boot to cut idle current, e.g. an unused QSPI flash (deep
+      power-down). Needs CONFIG_PM_DEVICE.

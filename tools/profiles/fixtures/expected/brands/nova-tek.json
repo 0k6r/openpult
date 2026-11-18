@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nova-tek-1",
+    "brand": "Nova Tek",
+    "name": "Nova Tek TV (NT-100)",
+    "models": ["NT-100"],
+    "weight": 1,
+    "source": ["TVs/Nova Tek/NovaTek_NT-100.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":65,"c":1}
+    },
+    "extra": []
+  },
+  {
+    "id": "nova-tek-2",
+    "brand": "Nova Tek",
+    "name": "Nova Tek TV (NT-200)",
+    "models": ["NT-200"],
+    "weight": 1,
+    "source": ["TVs/nova-tek/nova-tek_NT-200.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":65,"c":2}
+    },
+    "extra": []
+  }
+]

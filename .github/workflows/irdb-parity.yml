@@ -1,0 +1,33 @@
+name: Flipper-IRDB parity
+
+# The Python reference importer and the Swift port must build byte-identical profiles from the real database.
+# The database is fetched into the runner's temp folder and never committed.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+  pull_request:
+    paths:
+      - "app/BraviaKit/Sources/PultProfiles/**"
+      - "tools/profiles/**"
+
+jobs:
+  parity:
+    runs-on: macos-26
+    env:
+      PINNED: d126fb1b6f1e114c52b4a8c19839ea65e3a9c24d
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Flipper-IRDB at the pinned commit
+        run: |
+          git init -q "$RUNNER_TEMP/irdb"
+          git -C "$RUNNER_TEMP/irdb" remote add origin https://github.com/Lucaslhm/Flipper-IRDB.git
+          git -C "$RUNNER_TEMP/irdb" fetch -q --depth 1 origin "$PINNED"
+          git -C "$RUNNER_TEMP/irdb" checkout -q FETCH_HEAD
+      - name: Python reference build
+        run: python3 -I tools/profiles/import_flipper_irdb.py --irdb "$RUNNER_TEMP/irdb" --commit "$PINNED" --out "$RUNNER_TEMP/expected"
+      - name: Swift build compared byte for byte
+        env:
+          OPENPULT_IRDB: ${{ runner.temp }}/irdb
+          OPENPULT_PROFILES_EXPECTED: ${{ runner.temp }}/expected
+        run: swift test --package-path app/BraviaKit --filter PultProfilesTests

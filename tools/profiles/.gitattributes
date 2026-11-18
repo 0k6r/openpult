@@ -1,0 +1,2 @@
+# The fixtures and golden files are compared byte for byte (CR line ends, BOMs, invalid UTF-8): no conversion.
+fixtures/** -text

@@ -1,0 +1,153 @@
+Filetype: IR signals file
+Version: 1
+# Acme AB-1000 (hand-written fixture)
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+#
+name: Enter
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 45 00 00 00
+#
+name: Source
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+#
+name: Exit
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5B 00 00 00
+#
+name: Info
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AA 00 00 00
+#
+name: Return
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 28 00 00 00
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 11 00 00 00
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+#
+name: Power_on
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: C4 00 00 00
+#
+name: Power_off
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: C5 00 00 00
+#
+name: Netflix
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 56 00 00 00
+#
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B0 00 00 00
+#
+name: A
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 60 00 00 00
+#
+name: B
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+#
+name: C
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 62 00 00 00
+#
+name: D
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+#
+name: Tools
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5A 00 00 00
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00

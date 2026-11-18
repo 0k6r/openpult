@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kumo-1",
+    "brand": "Kumo",
+    "name": "Kumo TV (KM-7)",
+    "models": ["KM-7"],
+    "weight": 1,
+    "source": ["TVs/Kumo KM-7.IR"],
+    "keys": {
+      "power": {"p":"NEC","a":67,"c":1}
+    },
+    "extra": []
+  }
+]

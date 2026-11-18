@@ -1,0 +1,7 @@
+// Copy to Config/Local.xcconfig and fill in. This file is ignored by git.
+// Team ID: Xcode → Settings → Accounts → your Apple ID → Personal Team (10 characters).
+DEVELOPMENT_TEAM = ABCDE12345
+// Must be unique for a free Personal Team, e.g. com.<yourname>.openpult
+OPENPULT_BUNDLE_ID = com.example.openpult
+// iPhone UDID for ./install.sh (xcrun devicectl list devices)
+OPENPULT_DEVICE =

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "source": {"db": "Flipper-IRDB", "url": "https://github.com/Lucaslhm/Flipper-IRDB", "commit": "0123456789abcdef0123456789abcdef01234567", "license": "CC0-1.0", "note": "The upstream README states that commits prior to abc1234 are not covered by the CC0-1.0 license; see docs/ir/profiles.md."},
+  "brands": [
+    {"id": "acme", "name": "Acme", "file": "brands/acme.json", "profiles": 3},
+    {"id": "fizeo", "name": "ﬁzeo", "file": "brands/fizeo.json", "profiles": 1},
+    {"id": "kumo", "name": "Kumo", "file": "brands/kumo.json", "profiles": 1},
+    {"id": "nova", "name": "nova", "file": "brands/nova.json", "profiles": 4},
+    {"id": "nova-tek", "name": "Nova Tek", "file": "brands/nova-tek.json", "profiles": 2},
+    {"id": "oddbrand", "name": "Oddbrand", "file": "brands/oddbrand.json", "profiles": 1},
+    {"id": "olmann", "name": "Ölmann", "file": "brands/olmann.json", "profiles": 3},
+    {"id": "zenco", "name": "Zenco", "file": "brands/zenco.json", "profiles": 1},
+    {"id": "zeta", "name": "Zeta", "file": "brands/zeta.json", "profiles": 7}
+  ]
+}

@@ -1,0 +1,15 @@
+﻿﻿Filetype: IR signals file
+Version: 1
+# Ölmann ÖL-60: starts with a UTF-8 BOM
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 11 FE 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 12 FE 00 00

@@ -1,0 +1,2440 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ · batteries %@" : {
+      "comment" : "Bridge status line. The first %@ is the connection status, the second the battery level, e.g. 80%.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · батарейки %@"
+          }
+        }
+      }
+    },
+    "%@ · batteries low" : {
+      "comment" : "Bridge status line. %@ is the connection status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · батарейки садятся"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "comment" : "A digit key (accessibility label).",
+      "shouldTranslate" : false
+    },
+    "%lld remotes in the database" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld remote in the database"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld remotes in the database"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld пульт в базе"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld пульта в базе"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld пультов в базе"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld пульта в базе"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "0" : {
+      "comment" : "Digit key 0 (accessibility label).",
+      "shouldTranslate" : false
+    },
+    "A TV remote you already set up keeps working when the codes are updated or deleted." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уже настроенный пульт телевизора продолжит работать, если базу обновить или удалить."
+          }
+        }
+      }
+    },
+    "About the codes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О базе кодов"
+          }
+        }
+      }
+    },
+    "Action Menu" : {
+      "comment" : "The Options key of a Sony remote.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Меню действий"
+          }
+        }
+      }
+    },
+    "Aim at TV Sensor" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наведение на датчик"
+          }
+        }
+      }
+    },
+    "Apps" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложения"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назад"
+          }
+        }
+      }
+    },
+    "Batteries" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батарейки"
+          }
+        }
+      }
+    },
+    "Blue" : {
+      "comment" : "Color key of the remote; VoiceOver adds \"button\".",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Синяя"
+          }
+        }
+      }
+    },
+    "Bluetooth is off" : {
+      "comment" : "Bridge status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth выключен"
+          }
+        }
+      }
+    },
+    "Bluetooth isn't available on this device." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth недоступен на этом устройстве."
+          }
+        }
+      }
+    },
+    "Bluetooth unavailable" : {
+      "comment" : "Bridge status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth недоступен"
+          }
+        }
+      }
+    },
+    "Brands" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бренды"
+          }
+        }
+      }
+    },
+    "Bridge" : {
+      "comment" : "The IR bridge (a small BLE → IR box). Title of its sheet and a tab.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка"
+          }
+        }
+      }
+    },
+    "Bridge & Aiming" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка и наведение"
+          }
+        }
+      }
+    },
+    "Bridges found" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найденные приставки"
+          }
+        }
+      }
+    },
+    "Building the TV profiles…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Собираю профили телевизоров…"
+          }
+        }
+      }
+    },
+    "Built-in Sony codes, no test needed" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Встроенные коды Sony, проверять не нужно"
+          }
+        }
+      }
+    },
+    "Button" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кнопка"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        }
+      }
+    },
+    "CH" : {
+      "comment" : "Short label on the channel rocker.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "КАН"
+          }
+        }
+      }
+    },
+    "Change TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сменить телевизор"
+          }
+        }
+      }
+    },
+    "Check for Updates" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить обновления"
+          }
+        }
+      }
+    },
+    "Check the Code" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить код"
+          }
+        }
+      }
+    },
+    "Checking…" : {
+      "comment" : "TV power status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверяю…"
+          }
+        }
+      }
+    },
+    "Choose Another TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать другой телевизор"
+          }
+        }
+      }
+    },
+    "Choose OpenPult below within 2 minutes of turning it on." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите «OpenPult» ниже в течение 2 минут после включения."
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        }
+      }
+    },
+    "Code %lld of %lld" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Код %1$lld из %2$lld"
+          }
+        }
+      }
+    },
+    "Codes from Flipper-IRDB. If no variant works, learn the buttons from your original remote." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коды из открытой базы Flipper-IRDB. Если ни один вариант не подошёл, обучите кнопки с родного пульта."
+          }
+        }
+      }
+    },
+    "Confirm" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подтвердить"
+          }
+        }
+      }
+    },
+    "Connect" : {
+      "comment" : "Starts pairing with the TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключить"
+          }
+        }
+      }
+    },
+    "Connected" : {
+      "comment" : "Bridge status (the bridge is feminine in Russian).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключена"
+          }
+        }
+      }
+    },
+    "connected" : {
+      "comment" : "A device is plugged into this TV input.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "подключено"
+          }
+        }
+      }
+    },
+    "Connecting…" : {
+      "comment" : "Bridge status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключаю…"
+          }
+        }
+      }
+    },
+    "Connecting… If your iPhone asks to pair, tap Pair." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключаю… Если iPhone предложит создать пару, нажмите «Создать пару»."
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        }
+      }
+    },
+    "Couldn't load this brand's codes." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось загрузить коды этого бренда."
+          }
+        }
+      }
+    },
+    "Couldn't read the power codes." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось прочитать коды питания."
+          }
+        }
+      }
+    },
+    "Couldn't read the TV codes." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось прочитать базу кодов."
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
+        }
+      }
+    },
+    "Delete the TV codes?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить базу кодов?"
+          }
+        }
+      }
+    },
+    "Delete TV Codes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить базу кодов"
+          }
+        }
+      }
+    },
+    "Deleting the TV codes…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удаляю базу кодов…"
+          }
+        }
+      }
+    },
+    "Did the TV react?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор отреагировал?"
+          }
+        }
+      }
+    },
+    "Discard" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбросить"
+          }
+        }
+      }
+    },
+    "Discard the learned buttons?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбросить обученные кнопки?"
+          }
+        }
+      }
+    },
+    "Disconnected (connects when you press a button)" : {
+      "comment" : "Bridge status in the bridge sheet.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключена (подключится при нажатии)"
+          }
+        }
+      }
+    },
+    "Don't know the brand or it isn't listed?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не знаете бренд или его нет в списке?"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        }
+      }
+    },
+    "Down" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вниз"
+          }
+        }
+      }
+    },
+    "Download TV Codes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скачать базу кодов"
+          }
+        }
+      }
+    },
+    "Excellent signal" : {
+      "comment" : "Bluetooth signal strength of a found bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнал отличный"
+          }
+        }
+      }
+    },
+    "Fast Forward" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перемотка вперёд"
+          }
+        }
+      }
+    },
+    "Find the Code" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоподбор"
+          }
+        }
+      }
+    },
+    "Find the Code Automatically" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подобрать код автоматически"
+          }
+        }
+      }
+    },
+    "Firmware" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прошивка"
+          }
+        }
+      }
+    },
+    "Firmware Update Mode" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим прошивки"
+          }
+        }
+      }
+    },
+    "First forget OpenPult in Settings → Bluetooth, then turn the bridge off and on." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала забудьте «OpenPult» в Настройках → Bluetooth, затем выключите и включите приставку."
+          }
+        }
+      }
+    },
+    "First open search or any text field on the TV. The text will appear there." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала откройте на телевизоре поиск или любое поле ввода — текст появится в нём."
+          }
+        }
+      }
+    },
+    "For example, 192.168.1.50" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Например, 192.168.1.50"
+          }
+        }
+      }
+    },
+    "Forget" : {
+      "comment" : "Confirms forgetting the bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Забыть"
+          }
+        }
+      }
+    },
+    "Forget Bridge" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Забыть приставку"
+          }
+        }
+      }
+    },
+    "Forget Bridge?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Забыть приставку?"
+          }
+        }
+      }
+    },
+    "from profile" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "из профиля"
+          }
+        }
+      }
+    },
+    "Good signal" : {
+      "comment" : "Bluetooth signal strength of a found bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнал хороший"
+          }
+        }
+      }
+    },
+    "Great! Press “%@” once more to confirm." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отлично! Нажмите «%@» ещё раз для проверки."
+          }
+        }
+      }
+    },
+    "Green" : {
+      "comment" : "Color key of the remote; VoiceOver adds \"button\".",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зелёная"
+          }
+        }
+      }
+    },
+    "Guide" : {
+      "comment" : "The program Guide key.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телегид"
+          }
+        }
+      }
+    },
+    "HDMI %lld" : {
+      "comment" : "Switch to HDMI input N.",
+      "shouldTranslate" : false
+    },
+    "Home" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Домой"
+          }
+        }
+      }
+    },
+    "Idle" : {
+      "comment" : "Bridge status: disconnected, connects on the next key press.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ждёт нажатия"
+          }
+        }
+      }
+    },
+    "If no PIN appears, turn on Remote Device/Renderer in the TV's home network settings, or connect with a Pre-Shared Key." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если PIN не появляется, включите на ТВ «Удалённое управление» в настройках домашней сети или подключитесь по ключу PSK."
+          }
+        }
+      }
+    },
+    "If the TV's Wi‑Fi doesn't work, the OpenPult bridge takes commands over Bluetooth and sends them to the TV by infrared." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если Wi‑Fi в телевизоре не работает, приставка «OpenPult» принимает команды по Bluetooth и передаёт их телевизору инфракрасным лучом."
+          }
+        }
+      }
+    },
+    "In firmware update mode, the bridge shows up on your computer as a USB drive. Copy the .uf2 firmware file to it." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В режиме прошивки приставка появляется на компьютере как USB-диск — скопируйте на него файл прошивки .uf2."
+          }
+        }
+      }
+    },
+    "In the same menu: IP Control → Authentication → Normal and Pre-Shared Key, then set a Pre-Shared Key, for example, 0000." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Там же: IP-управление → Аутентификация → «Обычная и Pre-Shared Key», затем задайте Pre-Shared Key, например 0000."
+          }
+        }
+      }
+    },
+    "Info" : {
+      "comment" : "The Display/Info key of the remote.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Информация"
+          }
+        }
+      }
+    },
+    "Input" : {
+      "comment" : "The Input key of the remote.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источник сигнала"
+          }
+        }
+      }
+    },
+    "Inputs" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Входы"
+          }
+        }
+      }
+    },
+    "Inputs and Power" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Входы и питание"
+          }
+        }
+      }
+    },
+    "Insert the batteries and turn on the bridge with its switch." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вставьте батарейки и включите приставку выключателем."
+          }
+        }
+      }
+    },
+    "Installed on" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дата установки"
+          }
+        }
+      }
+    },
+    "iOS hasn't allowed OpenPult to access the local network. Allow it in Settings and search again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS не дал «Пульту» доступ к локальной сети. Разрешите его в настройках и повторите поиск."
+          }
+        }
+      }
+    },
+    "IR Bridge" : {
+      "comment" : "Default name of the remote when the IR bridge has no TV yet; section header.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ИК-приставка"
+          }
+        }
+      }
+    },
+    "It Worked!" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сработало!"
+          }
+        }
+      }
+    },
+    "Keep Searching" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить поиск"
+          }
+        }
+      }
+    },
+    "Learn Buttons" : {
+      "comment" : "Menu item; also referenced in a BraviaKit error message.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обучить кнопки"
+          }
+        }
+      }
+    },
+    "Learn Buttons from Your Remote" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обучить кнопки с родного пульта"
+          }
+        }
+      }
+    },
+    "learned" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "обучена"
+          }
+        }
+      }
+    },
+    "Left" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Влево"
+          }
+        }
+      }
+    },
+    "Listen Again" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слушать снова"
+          }
+        }
+      }
+    },
+    "Loading inputs…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загружаю список входов…"
+          }
+        }
+      }
+    },
+    "Main" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основные"
+          }
+        }
+      }
+    },
+    "Manual IP address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP-адрес вручную"
+          }
+        }
+      }
+    },
+    "Menu" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Меню"
+          }
+        }
+      }
+    },
+    "Menu names may differ slightly depending on the TV firmware." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Названия пунктов меню могут немного отличаться в зависимости от прошивки."
+          }
+        }
+      }
+    },
+    "Method" : {
+      "comment" : "Picker label: pairing method (PIN or Pre-Shared Key).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Способ"
+          }
+        }
+      }
+    },
+    "More" : {
+      "comment" : "VoiceOver label of the ⋯ menu.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ещё"
+          }
+        }
+      }
+    },
+    "Mute" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без звука"
+          }
+        }
+      }
+    },
+    "Navigation" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навигация"
+          }
+        }
+      }
+    },
+    "Needs reconnecting" : {
+      "comment" : "Bridge status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужно подключить заново"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следующий"
+          }
+        }
+      }
+    },
+    "Next Channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следующий канал"
+          }
+        }
+      }
+    },
+    "Next Code" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следующий код"
+          }
+        }
+      }
+    },
+    "No Apps" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет приложений"
+          }
+        }
+      }
+    },
+    "No Bluetooth access" : {
+      "comment" : "Bridge status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет доступа к Bluetooth"
+          }
+        }
+      }
+    },
+    "no code" : {
+      "comment" : "VoiceOver value of a key the TV profile has no code for.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "нет кода"
+          }
+        }
+      }
+    },
+    "No more codes. Try learning the buttons from your original remote." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коды закончились. Попробуйте обучить кнопки с родного пульта."
+          }
+        }
+      }
+    },
+    "No more variants for this button. Pick another button above, find the code automatically, or learn the buttons." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Варианты для этой кнопки закончились. Выберите другую кнопку выше, подберите код автоматически или обучите кнопки."
+          }
+        }
+      }
+    },
+    "No TV found. Check the tips below or enter the IP address manually." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не найден. Проверьте подсказки ниже или введите IP вручную."
+          }
+        }
+      }
+    },
+    "No, Next Variant" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет, следующий вариант"
+          }
+        }
+      }
+    },
+    "Numbers" : {
+      "comment" : "Tab and sheet with digit keys.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цифры"
+          }
+        }
+      }
+    },
+    "Offline" : {
+      "comment" : "TV power status: the TV does not answer.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет связи"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "comment" : "The OK key of the remote.",
+      "shouldTranslate" : false
+    },
+    "On" : {
+      "comment" : "TV power status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включён"
+          }
+        }
+      }
+    },
+    "On the TV: Settings → Network → Home Network Setup → IP Control → Authentication → Normal and Pre-Shared Key, then set the Pre-Shared Key." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На ТВ: Настройки → Сеть → Настройка домашней сети → IP-управление → Аутентификация → «Обычная и Pre-Shared Key», затем задайте Pre-Shared Key."
+          }
+        }
+      }
+    },
+    "On the TV: Settings → Network → Home Network Setup → Remote Device/Renderer → On." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На ТВ: Настройки → Сеть → Настройка домашней сети → Удалённое управление (Remote device / Renderer) → Вкл."
+          }
+        }
+      }
+    },
+    "Open Input Menu on TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть меню источников на ТВ"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть настройки"
+          }
+        }
+      }
+    },
+    "OpenPult" : {
+      "comment" : "App name, title of the TV search screen. The Russian app name is Пульт.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт"
+          }
+        }
+      }
+    },
+    "OpenPult doesn't have access to Bluetooth." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У «Пульта» нет доступа к Bluetooth."
+          }
+        }
+      }
+    },
+    "Other TV" : {
+      "comment" : "Toolbar button on the pairing screen: go back and pick another TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Другой ТВ"
+          }
+        }
+      }
+    },
+    "Pairing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключение"
+          }
+        }
+      }
+    },
+    "Pause" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пауза"
+          }
+        }
+      }
+    },
+    "PIN Code" : {
+      "comment" : "Pairing method segment.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN-код"
+          }
+        }
+      }
+    },
+    "PIN from the TV screen" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN с экрана телевизора"
+          }
+        }
+      }
+    },
+    "Play" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Воспроизведение"
+          }
+        }
+      }
+    },
+    "Playback and Colors" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Воспроизведение и цвета"
+          }
+        }
+      }
+    },
+    "Point the original remote at the bridge and press “%@”." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Направьте родной пульт на приставку и нажмите «%@»."
+          }
+        }
+      }
+    },
+    "Point the original remote at the bridge from 5–10 cm and press each button briefly." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Направляйте родной пульт на приставку с 5–10 см и нажимайте кнопки коротко."
+          }
+        }
+      }
+    },
+    "Power" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Питание"
+          }
+        }
+      }
+    },
+    "Power codes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коды питания"
+          }
+        }
+      }
+    },
+    "Pre-Shared Key" : {
+      "comment" : "Pairing method segment. Sony's term; keep it in English inside sentences.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ключ PSK"
+          }
+        }
+      }
+    },
+    "Pre-Shared Key, for example, 0000" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pre-Shared Key, например 0000"
+          }
+        }
+      }
+    },
+    "Previous" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предыдущий"
+          }
+        }
+      }
+    },
+    "Previous Channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предыдущий канал"
+          }
+        }
+      }
+    },
+    "Previous Code" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предыдущий код"
+          }
+        }
+      }
+    },
+    "Protocol %@, address %@, command %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протокол %1$@, адрес %2$@, команда %3$@"
+          }
+        }
+      }
+    },
+    "Protocol not recognized; the recorded signal is saved (%lld durations)" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Protocol not recognized; the recorded signal is saved (%lld duration)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Protocol not recognized; the recorded signal is saved (%lld durations)"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Протокол не распознан, сохранён записанный сигнал (%lld длительность)"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Протокол не распознан, сохранён записанный сигнал (%lld длительности)"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Протокол не распознан, сохранён записанный сигнал (%lld длительностей)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Протокол не распознан, сохранён записанный сигнал (%lld длительности)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Quick switch" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Быстрое переключение"
+          }
+        }
+      }
+    },
+    "Reading the list of files…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Читаю список файлов…"
+          }
+        }
+      }
+    },
+    "Rebuild Profiles" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пересобрать профили"
+          }
+        }
+      }
+    },
+    "Rebuild Profiles builds them again from the downloaded files, without the network." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«Пересобрать профили» собирает их заново из уже скачанных файлов, без интернета."
+          }
+        }
+      }
+    },
+    "Reconnect" : {
+      "comment" : "Pair again: a menu item for the TV, a banner button for the IR bridge after it lost its pairing.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключить заново"
+          }
+        }
+      }
+    },
+    "Reconnect Bridge" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключить приставку заново"
+          }
+        }
+      }
+    },
+    "Red" : {
+      "comment" : "Color key of the remote; VoiceOver adds \"button\".",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Красная"
+          }
+        }
+      }
+    },
+    "Refresh Status" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить состояние"
+          }
+        }
+      }
+    },
+    "Reload Button Codes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить коды кнопок"
+          }
+        }
+      }
+    },
+    "Remotes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульты"
+          }
+        }
+      }
+    },
+    "Request PIN Again" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросить PIN ещё раз"
+          }
+        }
+      }
+    },
+    "Rewind" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перемотка назад"
+          }
+        }
+      }
+    },
+    "Right" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вправо"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
+          }
+        }
+      }
+    },
+    "Search Again" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Искать снова"
+          }
+        }
+      }
+    },
+    "Searching for the bridge…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ищу приставку…"
+          }
+        }
+      }
+    },
+    "Searching for TVs…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ищу телевизор в сети…"
+          }
+        }
+      }
+    },
+    "Send" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправить"
+          }
+        }
+      }
+    },
+    "Send “%@”" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправить «%@»"
+          }
+        }
+      }
+    },
+    "Several variants match. Let's narrow it down with another button." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подходят несколько вариантов. Уточним другой кнопкой."
+          }
+        }
+      }
+    },
+    "Share Remote" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться пультом"
+          }
+        }
+      }
+    },
+    "Show PIN on TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать PIN на телевизоре"
+          }
+        }
+      }
+    },
+    "Source" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источник"
+          }
+        }
+      }
+    },
+    "Standby" : {
+      "comment" : "TV power status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим ожидания"
+          }
+        }
+      }
+    },
+    "Start" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать"
+          }
+        }
+      }
+    },
+    "Start Over" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать сначала"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "comment" : "Bridge connection status row.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Состояние"
+          }
+        }
+      }
+    },
+    "Stop" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стоп"
+          }
+        }
+      }
+    },
+    "Subtitles" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Субтитры"
+          }
+        }
+      }
+    },
+    "Switch" : {
+      "comment" : "Confirms switching the bridge to firmware update mode.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перевести"
+          }
+        }
+      }
+    },
+    "Switch the Bridge to Firmware Update Mode?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перевести приставку в режим прошивки?"
+          }
+        }
+      }
+    },
+    "Test on the TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить на телевизоре"
+          }
+        }
+      }
+    },
+    "Text" : {
+      "comment" : "Tab: type text on the TV.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст"
+          }
+        }
+      }
+    },
+    "Text for the TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст для телевизора"
+          }
+        }
+      }
+    },
+    "Text Input" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод текста"
+          }
+        }
+      }
+    },
+    "That's It" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это он"
+          }
+        }
+      }
+    },
+    "The batteries are running low. Replace all three at once." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батарейки скоро сядут — замените все три сразу."
+          }
+        }
+      }
+    },
+    "The bridge alternates Volume Up and Volume Down. Turn the bridge and its nose until the TV's volume bar blinks steadily. Aiming stops by itself after a minute; the volume may shift by one step." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка по очереди шлёт «громче» и «тише». Поворачивайте её и носик, пока шкала громкости на телевизоре не начнёт уверенно мигать. Через минуту наведение выключится само; громкость может сдвинуться на деление."
+          }
+        }
+      }
+    },
+    "The bridge has no IR receiver. Connect a VS1838B or TSOP38238 to learn buttons." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У приставки нет ИК-приёмника. Подключите VS1838B или TSOP38238, чтобы обучать кнопки."
+          }
+        }
+      }
+    },
+    "The bridge works without Wi‑Fi: your iPhone sends it commands over Bluetooth, and the bridge sends them to the TV by infrared, like a regular remote." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приставка работает без Wi‑Fi: iPhone передаёт ей команды по Bluetooth, а она — телевизору инфракрасным лучом, как обычный пульт."
+          }
+        }
+      }
+    },
+    "The codes are downloaded from GitHub only when you ask. GitHub sees your IP address, as with any download." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "База скачивается с GitHub только по вашей команде. GitHub видит ваш IP-адрес, как при любой загрузке."
+          }
+        }
+      }
+    },
+    "The key is set once in the TV's settings and never expires." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ключ задаётся один раз в настройках телевизора и не устаревает."
+          }
+        }
+      }
+    },
+    "The remote won't work until you install the firmware or turn the bridge off and on." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт не будет работать, пока вы не прошьёте приставку или не выключите и не включите её."
+          }
+        }
+      }
+    },
+    "the required characteristics are missing" : {
+      "comment" : "Shown after \"Bluetooth error:\". GATT characteristics of the bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "нет нужных характеристик"
+          }
+        }
+      }
+    },
+    "The TV codes are up to date." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "База кодов актуальна."
+          }
+        }
+      }
+    },
+    "The TV codes come from Flipper-IRDB, an open collection of remotes on GitHub. The app downloads them once (about 1.5 MB) and builds the profiles on your iPhone." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коды телевизоров берутся из Flipper-IRDB — открытой коллекции пультов на GitHub. Приложение скачивает её один раз (около 1,5 МБ) и собирает профили прямо на iPhone."
+          }
+        }
+      }
+    },
+    "The TV didn't return a list of apps." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор не вернул список приложений."
+          }
+        }
+      }
+    },
+    "The TV is on and connected to the same Wi‑Fi network as your iPhone." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор включён и подключён к той же сети Wi‑Fi, что и iPhone."
+          }
+        }
+      }
+    },
+    "The TV will show a 4-digit code. Enter it here." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор покажет код из 4 цифр — введите его здесь."
+          }
+        }
+      }
+    },
+    "The two presses didn't match. Hold the remote closer and press briefly." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Два нажатия не совпали. Держите пульт ближе и нажимайте коротко."
+          }
+        }
+      }
+    },
+    "This brand's remotes have no buttons to test with (power, volume, mute)." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У пультов этого бренда нет кнопок для проверки (питание, громкость, «Без звука»)."
+          }
+        }
+      }
+    },
+    "This code is used by %@. Turn the TV on and check the code." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подошёл код для: %@. Включите телевизор и проверьте этот код."
+          }
+        }
+      }
+    },
+    "this isn't an OpenPult bridge" : {
+      "comment" : "Shown after \"Bluetooth error:\". OpenPult is the bridge name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "это не приставка «OpenPult»"
+          }
+        }
+      }
+    },
+    "To connect it again, forget OpenPult in Settings → Bluetooth and turn the bridge off and on." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы подключить её снова, забудьте «OpenPult» в Настройках → Bluetooth, затем выключите и включите приставку."
+          }
+        }
+      }
+    },
+    "To learn buttons, connect an IR receiver (VS1838B or TSOP38238) to the bridge." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для обучения к приставке нужно подключить ИК-приёмник (VS1838B или TSOP38238)."
+          }
+        }
+      }
+    },
+    "To turn on the TV from your phone: Settings → Network → Remote Start → On." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы включать телевизор с телефона: Настройки → Сеть → Удалённый запуск → Вкл."
+          }
+        }
+      }
+    },
+    "Try Again" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Попробовать ещё раз"
+          }
+        }
+      }
+    },
+    "Turn Off" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выключить"
+          }
+        }
+      }
+    },
+    "Turn On" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить"
+          }
+        }
+      }
+    },
+    "Turn on Bluetooth in Control Center." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите Bluetooth в Пункте управления."
+          }
+        }
+      }
+    },
+    "Turn the TV on and check this code." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите телевизор и проверьте этот код."
+          }
+        }
+      }
+    },
+    "Turn the TV on and point the bridge at it. The bridge sends the power codes of different brands one by one. As soon as the TV turns off, tap “It Worked”." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите телевизор и направьте на него приставку. Она будет по очереди отправлять коды выключения разных брендов. Как только телевизор выключится — нажмите «Сработало»."
+          }
+        }
+      }
+    },
+    "TV" : {
+      "comment" : "Placeholder when the TV model name is unknown.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор"
+          }
+        }
+      }
+    },
+    "TV brand" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бренд телевизора"
+          }
+        }
+      }
+    },
+    "TV Codes" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "База кодов"
+          }
+        }
+      }
+    },
+    "TV codes are unavailable in this build." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В этой сборке база кодов недоступна."
+          }
+        }
+      }
+    },
+    "TV inputs" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Входы телевизора"
+          }
+        }
+      }
+    },
+    "TV off: test with Power. TV on: test with Volume or Mute." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизор выключен — проверяйте питанием. Включён — громкостью или «Без звука»."
+          }
+        }
+      }
+    },
+    "TV setup" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подготовка телевизора"
+          }
+        }
+      }
+    },
+    "TVs on your network" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телевизоры в вашей сети"
+          }
+        }
+      }
+    },
+    "Up" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вверх"
+          }
+        }
+      }
+    },
+    "Use IR Bridge" : {
+      "comment" : "Switch control to the BLE → IR bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Управлять через ИК-приставку"
+          }
+        }
+      }
+    },
+    "Use Wi‑Fi" : {
+      "comment" : "Switch control back to Sony IP Control over Wi‑Fi.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Управлять по Wi‑Fi"
+          }
+        }
+      }
+    },
+    "Use “%@” Without Testing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать «%@» без проверки"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия"
+          }
+        }
+      }
+    },
+    "via another button" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "через замену"
+          }
+        }
+      }
+    },
+    "VOL" : {
+      "comment" : "Short label on the volume rocker.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ГРОМК"
+          }
+        }
+      }
+    },
+    "Volume Down" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тише"
+          }
+        }
+      }
+    },
+    "Volume Up" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Громче"
+          }
+        }
+      }
+    },
+    "Weak signal — move your iPhone closer" : {
+      "comment" : "Bluetooth signal strength of a found bridge.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнал слабый — поднесите iPhone ближе"
+          }
+        }
+      }
+    },
+    "When your iPhone asks to pair, tap Pair." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда iPhone предложит создать пару, нажмите «Создать пару»."
+          }
+        }
+      }
+    },
+    "Without Wi‑Fi" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без Wi‑Fi"
+          }
+        }
+      }
+    },
+    "Wi‑Fi" : {
+      "comment" : "Toolbar button: back to control over Wi‑Fi.",
+      "shouldTranslate" : false
+    },
+    "Yellow" : {
+      "comment" : "Color key of the remote; VoiceOver adds \"button\".",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жёлтая"
+          }
+        }
+      }
+    },
+    "Yes, It Works" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Да, подходит"
+          }
+        }
+      }
+    },
+    "You can download them again at any time." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Её можно скачать снова в любой момент."
+          }
+        }
+      }
+    },
+    "You can find the TV's address in its network settings (Network status) or in your router's device list." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Адрес телевизора виден в его настройках сети («Состояние сети») или в списке устройств роутера."
+          }
+        }
+      }
+    },
+    "Your TV" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш телевизор"
+          }
+        }
+      }
+    },
+    "“%@” is learned." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кнопка «%@» обучена."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

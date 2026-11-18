@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fizeo-1",
+    "brand": "ﬁzeo",
+    "name": "ﬁzeo TV (FZ-32)",
+    "models": ["FZ-32"],
+    "weight": 1,
+    "source": ["TVs/ﬁzeo/ﬁzeo_FZ-32.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":66,"c":1}
+    },
+    "extra": []
+  }
+]

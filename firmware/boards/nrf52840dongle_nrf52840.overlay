@@ -1,0 +1,20 @@
+/*
+ * Nordic nRF52840 Dongle (PCA10059) with its factory nRF5 SDK USB bootloader (no UF2,
+ * so ENTER_BOOTLOADER answers 0x85). Meant to run from a USB charger.
+ */
+
+#include "../dts/openpult_common.dtsi"
+
+/ {
+	openpult {
+		compatible = "openpult,ir-bridge";
+		ir-pwm = <&pwm1>;
+		/* P0.17 -> resistor -> IR LED (or the driver transistor) */
+		ir-tx-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
+		/* receiver: OUT P0.20, GND P0.22, VCC P0.24 */
+		ir-rx-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>;
+		ir-rx-gnd-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+		ir-rx-power-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+		ir-rx-timer = <&timer2>;
+	};
+};

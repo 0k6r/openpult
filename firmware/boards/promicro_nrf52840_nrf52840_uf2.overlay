@@ -1,0 +1,50 @@
+/*
+ * nRF52840 SuperMini / nice!nano v2 clones (Adafruit UF2 bootloader, S140 6.1.1 layout).
+ * Powered on B+ (VDDH, high-voltage mode); the battery is measured on VDDH/5.
+ */
+
+#include "../dts/openpult_common.dtsi"
+
+/ {
+	openpult {
+		compatible = "openpult,ir-bridge";
+		ir-pwm = <&pwm1>;
+		/* P0.17 -> 220 Ohm -> IR LED (or the driver transistor) */
+		ir-tx-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
+		/* receiver on three adjacent pins, VS1838B order OUT-GND-VCC */
+		ir-rx-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>;
+		ir-rx-gnd-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+		ir-rx-power-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+		ir-rx-timer = <&timer2>;
+		battery = <&vbatt>;
+		uf2-bootloader;
+	};
+
+	vbatt: vbatt {
+		compatible = "voltage-divider";
+		io-channels = <&adc 0>;
+		output-ohms = <1>;
+		full-ohms = <5>;
+	};
+};
+
+&adc {
+	channel@0 {
+		reg = <0>;
+		zephyr,gain = "ADC_GAIN_1_2";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 40)>;
+		zephyr,input-positive = <NRF_SAADC_VDDHDIV5>;
+		zephyr,resolution = <12>;
+		zephyr,oversampling = <3>;
+	};
+};
+
+/* P0.13 switches the board's VCC output; nothing is powered from it, keep it off. */
+&gpio0 {
+	ext-vcc-off {
+		gpio-hog;
+		gpios = <13 GPIO_ACTIVE_HIGH>;
+		output-low;
+	};
+};

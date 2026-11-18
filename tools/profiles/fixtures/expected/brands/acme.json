@@ -1,0 +1,66 @@
+[
+  {
+    "id": "acme-1",
+    "brand": "Acme",
+    "name": "Acme TV (AB-1000, AB-2000)",
+    "models": ["AB-1000","AB-2000"],
+    "weight": 2,
+    "source": ["TVs/Acme/Acme_AB-1000.ir","TVs/Acme/Acme_AB-2000.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":4,"c":8},
+      "powerOff": {"p":"NEC","a":4,"c":197},
+      "wakeUp": {"p":"NEC","a":4,"c":196},
+      "input": {"p":"NEC","a":4,"c":11},
+      "back": {"p":"NEC","a":4,"c":40},
+      "options": {"p":"NEC","a":4,"c":90},
+      "confirm": {"p":"NEC","a":4,"c":68},
+      "volumeUp": {"p":"NEC","a":4,"c":2},
+      "volumeDown": {"p":"NEC","a":4,"c":3},
+      "mute": {"p":"NEC","a":4,"c":9},
+      "channelUp": {"p":"NEC","a":4,"c":0},
+      "channelDown": {"p":"NEC","a":4,"c":1},
+      "play": {"p":"NEC","a":4,"c":176},
+      "pause": {"p":"NEC","a":4,"c":176},
+      "red": {"p":"NEC","a":4,"c":96},
+      "green": {"p":"NEC","a":4,"c":97},
+      "yellow": {"p":"NEC","a":4,"c":98},
+      "blue": {"p":"NEC","a":4,"c":99},
+      "num1": {"p":"NEC","a":4,"c":17},
+      "num2": {"p":"NEC","a":4,"c":18},
+      "display": {"p":"NEC","a":4,"c":170},
+      "menu": {"p":"NEC","a":4,"c":67},
+      "exit": {"p":"NEC","a":4,"c":91}
+    },
+    "extra": [
+      {"name":"Enter","cmd":{"p":"NEC","a":4,"c":69}},
+      {"name":"Netflix","cmd":{"p":"NEC","a":4,"c":86}}
+    ]
+  },
+  {
+    "id": "acme-2",
+    "brand": "Acme",
+    "name": "Acme TV (Hotel)",
+    "models": [],
+    "weight": 1,
+    "source": ["TVs/Acme/Acme_Hotel.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":4,"c":8},
+      "volumeUp": {"p":"NEC","a":4,"c":2},
+      "volumeDown": {"p":"NEC","a":4,"c":3}
+    },
+    "extra": []
+  },
+  {
+    "id": "acme-3",
+    "brand": "Acme",
+    "name": "Acme TV (junk)",
+    "models": [],
+    "weight": 1,
+    "source": ["TVs/Acme/Acme_junk.ir"],
+    "keys": {
+      "power": {"p":"NEC","a":4,"c":8},
+      "mute": {"p":"NEC","a":4,"c":13}
+    },
+    "extra": []
+  }
+]

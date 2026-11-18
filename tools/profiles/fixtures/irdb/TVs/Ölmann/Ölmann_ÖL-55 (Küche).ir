@@ -1,0 +1,45 @@
+Filetype: IR signals file
+Version: 1
+# Ölmann ÖL-55: CRLF line ends, NBSP and non-ASCII names (hand-written fixture)
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 01 FE 00 00
+#
+name: Vol up
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 02 FE 00 00
+#
+name: Vol  dn
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 03 FE 00 00
+#
+name: Lautstärke
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 04 FE 00 00
+#
+name: ΣΟΦΟΣ
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 05 FE 00 00
+#
+name: İnfo
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 06 FE 00 00
+#
+name: Menü 
+type: parsed
+protocol: NECext
+address: 10 7E 00 00
+command: 07 FE 00 00

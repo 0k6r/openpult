@@ -1,0 +1,512 @@
+{
+ "files_seen": 30,
+ "files_used": 25,
+ "brands": 9,
+ "profiles": 23,
+ "buttons_in": {
+  "parsed": 103,
+  "raw": 19
+ },
+ "codes_out": {
+  "parsed": 77,
+  "raw": 19
+ },
+ "duplicates_dropped": 1,
+ "skipped_files": {
+  "file: brand name without letters or digits": 2,
+  "file: no usable buttons": 1,
+  "file: not an IR signals file": 2
+ },
+ "skipped_codes": {
+  "block: button without a name": 1,
+  "block: unknown type": 1,
+  "parsed: address/command wider than the protocol": 4,
+  "parsed: malformed address/command": 2,
+  "parsed: missing field": 1,
+  "parsed: unknown protocol": 2,
+  "raw: carrier outside 20000..65535 Hz": 1,
+  "raw: duration outside 50..500000 us": 1,
+  "raw: duty cycle outside 10..50 %": 1,
+  "raw: isolated pulses only (noise)": 1,
+  "raw: malformed number": 1,
+  "raw: mark longer than 30 ms": 1,
+  "raw: more than 1024 durations": 1,
+  "raw: more than 16 distinct durations after clustering": 1,
+  "raw: non-positive duration": 1,
+  "raw: section longer than 1 s": 1
+ },
+ "recovered": {
+  "recovered: missing type inferred from the fields": 1
+ },
+ "skip_examples": {
+  "block: button without a name": [
+   "TVs/Acme/Acme_junk.ir"
+  ],
+  "block: unknown type": [
+   "TVs/Acme/Acme_junk.ir"
+  ],
+  "file: brand name without letters or digits": [
+   "TVs/_nameless.ir",
+   "TVs/\u661f\u96f2/\u661f\u96f2_X1.ir"
+  ],
+  "file: no usable buttons": [
+   "TVs/Acme/Acme_Empty.ir"
+  ],
+  "file: not an IR signals file": [
+   "TVs/Acme/notes.txt",
+   "TVs/\u00d6lmann/\u00d6lmann_DoubleBOM.ir"
+  ],
+  "parsed: address/command wider than the protocol": [
+   "TVs/Acme/Acme_junk.ir",
+   "TVs/Zeta/Zeta_Protocols.ir",
+   "TVs/Zeta/Zeta_Protocols.ir"
+  ],
+  "parsed: malformed address/command": [
+   "TVs/Acme/Acme_junk.ir",
+   "TVs/Acme/Acme_junk.ir"
+  ],
+  "parsed: missing field": [
+   "TVs/Acme/Acme_junk.ir"
+  ],
+  "parsed: unknown protocol": [
+   "TVs/Acme/Acme_junk.ir",
+   "TVs/Zeta/Zeta_Protocols.ir"
+  ],
+  "raw: carrier outside 20000..65535 Hz": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: duration outside 50..500000 us": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: duty cycle outside 10..50 %": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: isolated pulses only (noise)": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: malformed number": [
+   "TVs/Acme/Acme_junk.ir"
+  ],
+  "raw: mark longer than 30 ms": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: more than 1024 durations": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: more than 16 distinct durations after clustering": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "raw: non-positive duration": [
+   "TVs/Acme/Acme_junk.ir"
+  ],
+  "raw: section longer than 1 s": [
+   "TVs/Zenco/Zenco_ZX-9.ir"
+  ],
+  "recovered: missing type inferred from the fields": [
+   "TVs/Acme/Acme_junk.ir"
+  ]
+ },
+ "protocols": [
+  [
+   "NEC",
+   48
+  ],
+  [
+   "raw",
+   19
+  ],
+  [
+   "NECext",
+   15
+  ],
+  [
+   "RC5",
+   2
+  ],
+  [
+   "Samsung32",
+   2
+  ],
+  [
+   "RCA",
+   1
+  ],
+  [
+   "RC6",
+   1
+  ],
+  [
+   "SIRC",
+   1
+  ],
+  [
+   "SIRC15",
+   1
+  ],
+  [
+   "SIRC20",
+   1
+  ],
+  [
+   "RC5X",
+   1
+  ],
+  [
+   "NEC42",
+   1
+  ],
+  [
+   "NEC42ext",
+   1
+  ],
+  [
+   "Kaseikyo",
+   1
+  ],
+  [
+   "Pioneer",
+   1
+  ]
+ ],
+ "power_scan_codes": 20,
+ "top_brands": [
+  [
+   "Zeta",
+   7
+  ],
+  [
+   "nova",
+   4
+  ],
+  [
+   "Acme",
+   3
+  ],
+  [
+   "\u00d6lmann",
+   3
+  ],
+  [
+   "Nova Tek",
+   2
+  ],
+  [
+   "\ufb01zeo",
+   1
+  ],
+  [
+   "Kumo",
+   1
+  ],
+  [
+   "Oddbrand",
+   1
+  ],
+  [
+   "Zenco",
+   1
+  ]
+ ],
+ "name_stats": [
+  [
+   "power",
+   25,
+   "Power",
+   "power"
+  ],
+  [
+   "mute",
+   10,
+   "Mute",
+   "mute"
+  ],
+  [
+   "volup",
+   7,
+   "Vol_up",
+   "volumeUp"
+  ],
+  [
+   "voldn",
+   6,
+   "Vol_dn",
+   "volumeDown"
+  ],
+  [
+   "chnext",
+   4,
+   "Ch_next",
+   "channelUp"
+  ],
+  [
+   "chprev",
+   4,
+   "Ch_prev",
+   "channelDown"
+  ],
+  [
+   "menu",
+   4,
+   "Menu",
+   "menu"
+  ],
+  [
+   "ok",
+   4,
+   "Ok",
+   "confirm"
+  ],
+  [
+   "back",
+   3,
+   "Back",
+   "back"
+  ],
+  [
+   "exit",
+   3,
+   "Exit",
+   "exit"
+  ],
+  [
+   "netflix",
+   3,
+   "Netflix",
+   "extra (reviewed)"
+  ],
+  [
+   "1",
+   2,
+   "1",
+   "num1"
+  ],
+  [
+   "2",
+   2,
+   "2",
+   "num2"
+  ],
+  [
+   "down",
+   2,
+   "Down",
+   "down"
+  ],
+  [
+   "enter",
+   2,
+   "Enter",
+   "confirm"
+  ],
+  [
+   "left",
+   2,
+   "Left",
+   "left"
+  ],
+  [
+   "poweroff",
+   2,
+   "Power_off",
+   "powerOff"
+  ],
+  [
+   "poweron",
+   2,
+   "Power_on",
+   "wakeUp"
+  ],
+  [
+   "right",
+   2,
+   "Right",
+   "right"
+  ],
+  [
+   "up",
+   2,
+   "Up",
+   "up"
+  ],
+  [
+   "a",
+   1,
+   "A",
+   "letter:red"
+  ],
+  [
+   "b",
+   1,
+   "B",
+   "letter:blue/green"
+  ],
+  [
+   "blue",
+   1,
+   "Blue",
+   "blue"
+  ],
+  [
+   "c",
+   1,
+   "C",
+   "letter:yellow"
+  ],
+  [
+   "ch+",
+   1,
+   "CH+",
+   "channelUp"
+  ],
+  [
+   "ch-",
+   1,
+   "Ch-",
+   "channelDown"
+  ],
+  [
+   "d",
+   1,
+   "D",
+   "letter:blue"
+  ],
+  [
+   "display",
+   1,
+   "Display",
+   "display"
+  ],
+  [
+   "green",
+   1,
+   "Green",
+   "green"
+  ],
+  [
+   "info",
+   1,
+   "Info",
+   "display"
+  ],
+  [
+   "info\ufffd\ufffd\ufffdx",
+   1,
+   "Info\ufffd\ufffd\ufffdx",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "input",
+   1,
+   "Input",
+   "input"
+  ],
+  [
+   "i\u0307nfo",
+   1,
+   "\u0130nfo",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "lautst\u00e4rke",
+   1,
+   "Lautst\u00e4rke",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "lowerhex",
+   1,
+   "Lower_hex",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "men\u00fc",
+   1,
+   "Men\u00fc",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "mode\ufffd\ufffd",
+   1,
+   "Mode\ufffd\ufffd",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "options",
+   1,
+   "Options",
+   "options"
+  ],
+  [
+   "pic\ufffd",
+   1,
+   "Pic\ufffd",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "play/pause",
+   1,
+   "Play/Pause",
+   "play,pause"
+  ],
+  [
+   "playpause",
+   1,
+   "Play_pause",
+   "play,pause"
+  ],
+  [
+   "red",
+   1,
+   "Red",
+   "red"
+  ],
+  [
+   "return",
+   1,
+   "Return",
+   "back"
+  ],
+  [
+   "slash\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   1,
+   "Slash\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "extra (UNREVIEWED)"
+  ],
+  [
+   "source",
+   1,
+   "Source",
+   "input"
+  ],
+  [
+   "tools",
+   1,
+   "Tools",
+   "options"
+  ],
+  [
+   "vol+",
+   1,
+   "VOL+",
+   "volumeUp"
+  ],
+  [
+   "vol-",
+   1,
+   "VOL -",
+   "volumeDown"
+  ],
+  [
+   "yellow",
+   1,
+   "Yellow",
+   "yellow"
+  ],
+  [
+   "\u03c3\u03bf\u03c6\u03bf\u03c2",
+   1,
+   "\u03a3\u039f\u03a6\u039f\u03a3",
+   "extra (UNREVIEWED)"
+  ]
+ ]
+}

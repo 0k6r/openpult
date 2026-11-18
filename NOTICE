@@ -1,0 +1,18 @@
+openpult
+Copyright 2026 The openpult contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE),
+except for the parts listed below, which carry their own licenses.
+
+- TV remote codes are NOT included. On the user's request the app downloads
+  them from Flipper-IRDB (https://github.com/Lucaslhm/Flipper-IRDB) and builds
+  the profiles on the device. Flipper-IRDB's LICENSE is CC0-1.0, but its README
+  states that commits before 2319685 (2025-08-07) are not covered; see
+  profiles/SOURCES.md.
+- docs/ — Creative Commons Attribution 4.0 International (CC BY 4.0),
+  see docs/LICENSE. The enclosure sources (enclosure/) are Apache-2.0 like the
+  rest of the code; the STL files built from them may be shared under the same terms.
+- Sony IRCC code values in the app come from Sony's public BRAVIA IP control
+  documentation (https://pro-bravia.sony.net/).
+- The firmware is built on the Zephyr RTOS (Apache-2.0) and links Nordic
+  nrfx/hal_nordic (BSD-3-Clause) through Zephyr modules.

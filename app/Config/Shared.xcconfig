@@ -1,0 +1,8 @@
+// Shared build settings for the openpult iOS app.
+// Personal signing settings live in Config/Local.xcconfig, which is not committed:
+//   cp Config/Local.xcconfig.example Config/Local.xcconfig
+OPENPULT_BUNDLE_ID = io.github.openpult.app
+DEVELOPMENT_TEAM =
+PRODUCT_BUNDLE_IDENTIFIER = $(OPENPULT_BUNDLE_ID)
+
+#include? "Local.xcconfig"

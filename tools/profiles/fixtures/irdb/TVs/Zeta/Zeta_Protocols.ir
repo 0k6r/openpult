@@ -1,0 +1,117 @@
+Filetype: IR signals file
+Version: 1
+# Zeta: one button per protocol at the widest values, plus overflows
+#
+name: Power
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: FF 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: FF FF 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC42
+address: FF 1F 00 00
+command: FF 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC42ext
+address: FF FF FF 03
+command: FF FF 00 00
+#
+name: Ch_next
+type: parsed
+protocol: Samsung32
+address: FF 00 00 00
+command: FE 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+#
+name: Ok
+type: parsed
+protocol: RC5X
+address: 1F 00 00 00
+command: 7F 00 00 00
+#
+name: Up
+type: parsed
+protocol: RC6
+address: FF 00 00 00
+command: FD 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC
+address: 1F 00 00 00
+command: 7E 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC15
+address: FF 00 00 00
+command: 7D 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC20
+address: FF 1F 00 00
+command: 7C 00 00 00
+#
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: FF FF FF 03
+command: FF 03 00 00
+#
+name: Back
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: FC 00 00 00
+#
+name: Exit
+type: parsed
+protocol: Pioneer
+address: FF 00 00 00
+command: FB 00 00 00
+#
+name: Sleep
+type: parsed
+protocol: RC5
+address: 20 00 00 00
+command: 01 00 00 00
+#
+name: Timer
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 80 00 00 00
+#
+name: Wide
+type: parsed
+protocol: NEC42ext
+address: 00 00 00 04
+command: 01 00 00 00
+#
+name: Kelvin
+type: parsed
+protocol: Kaseikyo
+address: 01 00 00 00
+command: 01 00 00 00
+#
+name: Lower_hex
+type: parsed
+protocol: NEC
+address: 0a 00 00 00
+command: 0b 00 00 00

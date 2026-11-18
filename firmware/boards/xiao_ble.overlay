@@ -1,0 +1,54 @@
+/*
+ * Seeed XIAO nRF52840 (Sense): UF2 bootloader (Adafruit fork), S140 7.x layout.
+ * The battery (single Li-ion cell on BAT) is measured on the 1M/510k divider on P0.31.
+ */
+
+#include "../dts/openpult_common.dtsi"
+
+/ {
+	openpult {
+		compatible = "openpult,ir-bridge";
+		ir-pwm = <&pwm1>;
+		/* D0 -> resistor -> IR LED (or the driver transistor) */
+		ir-tx-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
+		/* receiver on D1-D3, VS1838B order OUT-GND-VCC */
+		ir-rx-gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;
+		ir-rx-gnd-gpios = <&gpio0 28 GPIO_ACTIVE_LOW>;
+		ir-rx-power-gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
+		ir-rx-timer = <&timer2>;
+		battery = <&vbatt>;
+		uf2-bootloader;
+		suspend-devices = <&p25q16h>;
+	};
+
+	vbatt: vbatt {
+		compatible = "voltage-divider";
+		io-channels = <&adc 7>;
+		output-ohms = <510000>;
+		full-ohms = <(1000000 + 510000)>;
+	};
+};
+
+&adc {
+	channel@7 {
+		reg = <7>;
+		zephyr,gain = "ADC_GAIN_1_6";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 40)>;
+		zephyr,input-positive = <NRF_SAADC_AIN7>;
+		zephyr,resolution = <12>;
+		zephyr,oversampling = <3>;
+	};
+};
+
+/*
+ * P0.14 enables the BAT divider and must stay low: driving it high exposes P0.31 to
+ * the full battery voltage. The divider then draws ~3 uA permanently.
+ */
+&gpio0 {
+	vbat-enable {
+		gpio-hog;
+		gpios = <14 GPIO_ACTIVE_HIGH>;
+		output-low;
+	};
+};

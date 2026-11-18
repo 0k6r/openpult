@@ -1,0 +1,22 @@
+[
+  {"cmd":{"p":"NEC","a":4,"c":8},"brands":["Acme","Oddbrand"],"weight":5},
+  {"cmd":{"p":"NEC","a":64,"c":4},"brands":["nova"],"weight":2},
+  {"cmd":{"p":"NEC","a":255,"c":255},"brands":["Zeta"],"weight":1},
+  {"cmd":{"p":"NECext","a":32272,"c":65025},"brands":["Ölmann"],"weight":1},
+  {"cmd":{"p":"NECext","a":32272,"c":65041},"brands":["Ölmann"],"weight":1},
+  {"cmd":{"p":"NECext","a":32272,"c":65057},"brands":["Ölmann"],"weight":1},
+  {"cmd":{"p":"NEC","a":49,"c":1},"brands":["Zeta"],"weight":1},
+  {"cmd":{"p":"NEC","a":50,"c":1},"brands":["Zeta"],"weight":1},
+  {"cmd":{"p":"NEC","a":50,"c":2},"brands":["Zeta"],"weight":1},
+  {"cmd":{"p":"NEC","a":50,"c":3},"brands":["Zeta"],"weight":1},
+  {"cmd":{"p":"NEC","a":51,"c":1},"brands":["Zeta"],"weight":1},
+  {"cmd":{"p":"NEC","a":64,"c":1},"brands":["nova"],"weight":1},
+  {"cmd":{"p":"NEC","a":64,"c":2},"brands":["nova"],"weight":1},
+  {"cmd":{"p":"NEC","a":64,"c":3},"brands":["nova"],"weight":1},
+  {"cmd":{"p":"NEC","a":65,"c":1},"brands":["Nova Tek"],"weight":1},
+  {"cmd":{"p":"NEC","a":65,"c":2},"brands":["Nova Tek"],"weight":1},
+  {"cmd":{"p":"NEC","a":66,"c":1},"brands":["ﬁzeo"],"weight":1},
+  {"cmd":{"p":"NEC","a":67,"c":1},"brands":["Kumo"],"weight":1},
+  {"cmd":{"raw":{"f":38000,"d":33,"i":[],"r":[2400,600,1200,600,600,600,600,26000]}},"brands":["Zeta"],"weight":1},
+  {"cmd":{"raw":{"f":38000,"d":33,"i":[],"r":[9000,4500,560,560,560,1690,560,560,560,1690,560,40000]}},"brands":["Zenco"],"weight":1}
+]

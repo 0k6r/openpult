@@ -1,0 +1,81 @@
+Filetype: IR signals file
+Version: 1
+# Zeta RAW-2: frame structures, clustering at exactly 5 %, duty cycles that round half to even
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 600 600 600 26000 2390 610 1210 590 600 600 610 26010 2410 600 1190 600 600 610 600
+#
+name: Vol_up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9000 4500 560 560 560 1690 560 560 560 1690 560 40000 9000 2250 560 96000 9000 2250 560
+#
+name: Vol_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 300 1800 300 800 300 45000 300 800 300 1800 300 45000 300 1800 300 800 300 45000 300 800 300 1800 300
+#
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 600 25800 2400 600 1200 600 600 25800 2400 600 1200
+#
+name: Ch_next
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 950 500 1050 500 2000 25000
+#
+name: Ch_prev
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 949 500 1051 500 2000 25000
+#
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.125
+data: 4500 4500 560 1690 560 560 560 41000
+#
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.505
+data: 4500 4500 560 1690 560 560 560 42000
+#
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.345
+data: 4500 4500 560 1690 560 560 560 43000
+#
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 32.5
+data: 4500 4500 560 1690 560 560 560 44000
+#
+name: Ok
+type: raw
+frequency: 38000
+duty_cycle: 0.105
+data: 4500 4500 560 1690 560 560 560 45000
+#
+name: Menu
+type: raw
+frequency: 36700
+duty_cycle: 0.330000
+data: 4500 4500 560 1690 560 560 560 46000
+#
+name: Back
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1000 1000 1000 30000 2000 500 2000 30000 1000 1000 1000 30000 2000 500 2000

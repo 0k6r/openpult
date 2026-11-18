@@ -1,0 +1,32 @@
+# Build output
+build/
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/xcode/xcuserdata/
+
+# Personal signing settings
+app/Config/Local.xcconfig
+
+# Firmware
+firmware/build*/
+*.uf2
+*.hex
+
+# Enclosure
+enclosure/.venv/
+enclosure/out/
+*.stl
+*.3mf
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# TV profiles built locally from Flipper-IRDB (never committed; the app downloads the database itself)
+/profiles/index.json
+/profiles/power_scan.json
+/profiles/brands/
+/profiles/LICENSE
