@@ -7,8 +7,9 @@ Thanks for helping! The most useful contributions are TV profiles, new boards an
 - **The BLE protocol is a contract.** If you change [`firmware/PROTOCOL.md`](firmware/PROTOCOL.md), update the
   firmware, the app and the shared vectors in `testdata/ir_vectors.json` (regenerate with
   `python3 tools/gen_ir_vectors.py`) in the same pull request.
-- **Tests come with the change.** `swift test` in `app/BraviaKit`, `make -C firmware/tests/host test`,
-  `pytest enclosure/tests`, `python3 -m unittest discover tools/profiles`.
+- **Tests come with the change.** Run `tools/check.sh` before opening a pull request (add `--firmware` when you touch
+  `firmware/`). It runs the same checks as the CI workflow: vectors, translations, the Python importer, firmware host
+  tests, the Swift packages, the iOS build and the enclosure.
 - **No TV code databases in the repository.** The app downloads Flipper-IRDB itself (see
   [docs/ir/profiles.md](docs/ir/profiles.md)). Test fixtures are hand-written; do not copy codes from Flipper-IRDB,
   irdb, LIRC or GPL projects into the repository.
@@ -46,3 +47,17 @@ Thanks for helping! The most useful contributions are TV profiles, new boards an
 
 Keep them focused, describe how you tested (which TV, board, remote), and include photos of hardware changes when
 it helps.
+
+## Releasing
+
+The main repository builds releases locally (GitHub Actions are not used there; the workflows in `.github/` still
+work in forks that have Actions):
+
+```sh
+tools/check.sh --firmware
+git tag -a vX.Y.Z -m "openpult vX.Y.Z" && git push origin vX.Y.Z
+tools/release.sh vX.Y.Z            # add --prerelease for previews
+```
+
+`tools/release.sh` builds the firmware for every board, packs the STL files of all enclosure variants and publishes the
+GitHub release with `gh`.
